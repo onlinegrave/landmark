@@ -252,4 +252,3 @@ public class BackgroundRenderer {
     return cameraDepthTexture;
   }
 }
-ic_baseline_info_24
