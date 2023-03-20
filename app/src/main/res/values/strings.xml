@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Copyright 2022 Mapking International
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <string name="app_name" translatable="false">Landmark</string>
+    <string name="geospatial_pose" translatable="false">LAT/LNG: %.6f˚, %.6f˚\n\t\t\tACCURACY: %.2fm\nALTITUDE: %.2fm\n\t\t\tACCURACY: %.2fm\nHEADING: %.1f˚\n\t\t\tACCURACY: %.1f˚</string>
+    <string name="camera_state">CameraState: %1$s\nTrackingState: %2$s\n%3$s</string>
+    <string name="earth_state">EarthState: %1$s\nTrackingState: %2$s\n%3$s</string>
+    <string name="start_recording_button_text" translatable="false">START RECORDING</string>
+    <string name="stop_recording_button_text" translatable="false">STOP RECORDING</string>
+    <string name="playback_button_text" translatable="false">PLAYBACK</string>
+    <string name="playback_path_text" translatable="false">Playback: %1$s</string>
+    <string name="recording_path_text" translatable="false">Recording: %1$s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mapking International</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="copyright_2022">Copyright 2022 by MapKing, for demo only</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

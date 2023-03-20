@@ -1,0 +1,18 @@
+.idea
+.gradle
+build
+
+app/src/main/res/values/api_key.xml
+
+*.iml
+.gradle
+.idea/
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Dont include app-release / output-metadata
+app/release/
+app/build/outputs/apk/debug/

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main_fragment">
+    <action
+        android:id="@+id/action_global_mainFragment"
+        app:destination="@id/main_fragment" />
+
+    <action
+        android:id="@+id/action_global_settingFragment"
+        app:destination="@id/setting_fragment" />
+
+    <action
+        android:id="@+id/action_global_imageViewerFragment"
+        app:destination="@id/setting_fragment" />
+
+    <action
+        android:id="@+id/action_global_sharedCameraFragment"
+        app:destination="@id/shared_camera_fragment" />
+
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.mapking.ar.core.landmark.geo.MainFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/setting_fragment"
+        android:name="com.mapking.ar.core.landmark.geo.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/settings_preference_fragment"
+        android:name="com.mapking.ar.core.landmark.geo.settings.SettingsPreferenceFragment"
+        android:label="Setting" />
+
+    <fragment
+        android:id="@+id/shared_camera_fragment"
+        android:name="com.mapking.ar.core.landmark.geo.SharedCameraFragment"
+        android:label="Shared Camera Fragment"
+        tools:layout="@layout/fragment_shared_camera" />
+
+    <fragment
+        android:id="@+id/image_viewer_fragment"
+        android:name="com.mapking.ar.core.landmark.geo.ImageViewerFragment"
+        android:label="Image Viewer">
+
+        <argument
+            android:name="file_path"
+            app:argType="string"
+            app:nullable="false" />
+
+        <argument
+            android:name="orientation"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="depth"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+
+</navigation>
